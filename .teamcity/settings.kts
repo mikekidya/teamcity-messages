@@ -44,6 +44,7 @@ project {
 }
 
 object LinuxTeamcityMessagesTemplate : Template({
+    name = "LinuxTeamcityMessagesTemplate"
 
     vcs {
         root(DslContext.settingsRoot)
@@ -68,6 +69,7 @@ object LinuxTeamcityMessagesTemplate : Template({
 
 
 object WindowsTeamcityMessagesTemplate : Template({
+    name = "WindowsTeamcityMessagesTemplate"
 
     vcs {
         root(DslContext.settingsRoot)
